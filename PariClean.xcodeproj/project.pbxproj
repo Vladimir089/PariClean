@@ -19,6 +19,10 @@
 		156861ED2C6A491700328FC5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156861EC2C6A491700328FC5 /* HomeViewController.swift */; };
 		156861EF2C6A884C00328FC5 /* DiagrammeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156861EE2C6A884C00328FC5 /* DiagrammeView.swift */; };
 		156861F12C6A91AC00328FC5 /* EditDiagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156861F02C6A91AC00328FC5 /* EditDiagramViewController.swift */; };
+		156861F72C6B7A6400328FC5 /* DetailAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156861F62C6B7A6400328FC5 /* DetailAddViewController.swift */; };
+		156861F92C6B835600328FC5 /* AddBadHabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156861F82C6B835600328FC5 /* AddBadHabitsViewController.swift */; };
+		156861FB2C6B881C00328FC5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156861FA2C6B881C00328FC5 /* Model.swift */; };
+		156861FD2C6B961200328FC5 /* NewHabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156861FC2C6B961200328FC5 /* NewHabitsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,10 @@
 		156861EC2C6A491700328FC5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		156861EE2C6A884C00328FC5 /* DiagrammeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagrammeView.swift; sourceTree = "<group>"; };
 		156861F02C6A91AC00328FC5 /* EditDiagramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDiagramViewController.swift; sourceTree = "<group>"; };
+		156861F62C6B7A6400328FC5 /* DetailAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailAddViewController.swift; sourceTree = "<group>"; };
+		156861F82C6B835600328FC5 /* AddBadHabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBadHabitsViewController.swift; sourceTree = "<group>"; };
+		156861FA2C6B881C00328FC5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		156861FC2C6B961200328FC5 /* NewHabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabitsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,10 @@
 				156861EC2C6A491700328FC5 /* HomeViewController.swift */,
 				156861EE2C6A884C00328FC5 /* DiagrammeView.swift */,
 				156861F02C6A91AC00328FC5 /* EditDiagramViewController.swift */,
+				156861F62C6B7A6400328FC5 /* DetailAddViewController.swift */,
+				156861F82C6B835600328FC5 /* AddBadHabitsViewController.swift */,
+				156861FA2C6B881C00328FC5 /* Model.swift */,
+				156861FC2C6B961200328FC5 /* NewHabitsViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -201,12 +213,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156861F92C6B835600328FC5 /* AddBadHabitsViewController.swift in Sources */,
 				156861E12C6A1B7B00328FC5 /* LoadViewController.swift in Sources */,
 				156861CB2C6A1B0100328FC5 /* AppDelegate.swift in Sources */,
 				156861CD2C6A1B0100328FC5 /* SceneDelegate.swift in Sources */,
+				156861FD2C6B961200328FC5 /* NewHabitsViewController.swift in Sources */,
+				156861F72C6B7A6400328FC5 /* DetailAddViewController.swift in Sources */,
 				156861EA2C6A484200328FC5 /* TabBarViewController.swift in Sources */,
 				156861F12C6A91AC00328FC5 /* EditDiagramViewController.swift in Sources */,
 				156861EF2C6A884C00328FC5 /* DiagrammeView.swift in Sources */,
+				156861FB2C6B881C00328FC5 /* Model.swift in Sources */,
 				156861E72C6A316200328FC5 /* UserOnbViewController.swift in Sources */,
 				156861ED2C6A491700328FC5 /* HomeViewController.swift in Sources */,
 			);
