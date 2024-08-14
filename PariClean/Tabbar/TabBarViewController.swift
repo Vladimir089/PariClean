@@ -10,6 +10,7 @@ import UIKit
 class TabBarViewController: UITabBarController {
     
     let homeVC = HomeViewController()
+    let accVC = AccountViewController()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -36,7 +37,11 @@ class TabBarViewController: UITabBarController {
         let homeItem = UITabBarItem(title: "Home", image: .home.resize(targetSize: CGSize(width: 22, height: 22)), tag: 0)
         homeVC.tabBarItem = homeItem
         
-        viewControllers = [homeVC]
+        
+        let accItem = UITabBarItem(title: "Account", image: .acc.resize(targetSize: CGSize(width: 24, height: 24)), tag: 1)
+        accVC.tabBarItem = accItem
+        
+        viewControllers = [homeVC, accVC]
     }
 
 }

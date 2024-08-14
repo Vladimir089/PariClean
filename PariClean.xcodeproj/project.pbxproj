@@ -23,6 +23,9 @@
 		156861F92C6B835600328FC5 /* AddBadHabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156861F82C6B835600328FC5 /* AddBadHabitsViewController.swift */; };
 		156861FB2C6B881C00328FC5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156861FA2C6B881C00328FC5 /* Model.swift */; };
 		156861FD2C6B961200328FC5 /* NewHabitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156861FC2C6B961200328FC5 /* NewHabitsViewController.swift */; };
+		156862002C6CCD6800328FC5 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156861FF2C6CCD6800328FC5 /* AccountViewController.swift */; };
+		156862022C6CE6B200328FC5 /* EditAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156862012C6CE6B200328FC5 /* EditAccountViewController.swift */; };
+		156862042C6CFF5E00328FC5 /* AchivementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156862032C6CFF5E00328FC5 /* AchivementViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,9 @@
 		156861F82C6B835600328FC5 /* AddBadHabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBadHabitsViewController.swift; sourceTree = "<group>"; };
 		156861FA2C6B881C00328FC5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		156861FC2C6B961200328FC5 /* NewHabitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabitsViewController.swift; sourceTree = "<group>"; };
+		156861FF2C6CCD6800328FC5 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		156862012C6CE6B200328FC5 /* EditAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountViewController.swift; sourceTree = "<group>"; };
+		156862032C6CFF5E00328FC5 /* AchivementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchivementViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +82,7 @@
 		156861C92C6A1B0100328FC5 /* PariClean */ = {
 			isa = PBXGroup;
 			children = (
+				156861FE2C6CCD4E00328FC5 /* Account */,
 				156861EB2C6A486F00328FC5 /* Home */,
 				156861E82C6A482C00328FC5 /* Tabbar */,
 				156861E52C6A315100328FC5 /* UserOnb */,
@@ -134,6 +141,16 @@
 				156861FC2C6B961200328FC5 /* NewHabitsViewController.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		156861FE2C6CCD4E00328FC5 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				156861FF2C6CCD6800328FC5 /* AccountViewController.swift */,
+				156862012C6CE6B200328FC5 /* EditAccountViewController.swift */,
+				156862032C6CFF5E00328FC5 /* AchivementViewController.swift */,
+			);
+			path = Account;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,13 +232,16 @@
 			files = (
 				156861F92C6B835600328FC5 /* AddBadHabitsViewController.swift in Sources */,
 				156861E12C6A1B7B00328FC5 /* LoadViewController.swift in Sources */,
+				156862002C6CCD6800328FC5 /* AccountViewController.swift in Sources */,
 				156861CB2C6A1B0100328FC5 /* AppDelegate.swift in Sources */,
 				156861CD2C6A1B0100328FC5 /* SceneDelegate.swift in Sources */,
 				156861FD2C6B961200328FC5 /* NewHabitsViewController.swift in Sources */,
 				156861F72C6B7A6400328FC5 /* DetailAddViewController.swift in Sources */,
+				156862042C6CFF5E00328FC5 /* AchivementViewController.swift in Sources */,
 				156861EA2C6A484200328FC5 /* TabBarViewController.swift in Sources */,
 				156861F12C6A91AC00328FC5 /* EditDiagramViewController.swift in Sources */,
 				156861EF2C6A884C00328FC5 /* DiagrammeView.swift in Sources */,
+				156862022C6CE6B200328FC5 /* EditAccountViewController.swift in Sources */,
 				156861FB2C6B881C00328FC5 /* Model.swift in Sources */,
 				156861E72C6A316200328FC5 /* UserOnbViewController.swift in Sources */,
 				156861ED2C6A491700328FC5 /* HomeViewController.swift in Sources */,

@@ -160,22 +160,25 @@ class AddBadHabitsViewController: UIViewController {
     
     func sortArr() {
         if selectedHabits == "Cigarette" {
-            sortedCigarArr.removeAll()
+            sortedCigarArr = []
             for i in cigarArr {
                 if i.day == selectedDay {
                     sortedCigarArr.append(i)
+                    print(i)
                 }
             }
+            mainCollection?.reloadData()
         } else {
-            sortedAlcoArr.removeAll()
+            sortedAlcoArr = []
             for i in alcoArr {
                 if i.day == selectedDay {
                     sortedAlcoArr.append(i)
                 }
             }
+            mainCollection?.reloadData()
         }
         
-        mainCollection?.reloadData()
+        
     }
     
     @objc func menuButtonTapped(_ sender: UIButton) {
@@ -358,13 +361,13 @@ extension AddBadHabitsViewController: UICollectionViewDelegate, UICollectionView
             
             
             if selectedHabits == "Cigarette" {
-                timeLabel.text = cigarArr[indexPath.row].time
-                numberLabel.text = "\(cigarArr[indexPath.row].number) Cigarette"
-                reasonLabel.text = cigarArr[indexPath.row].reason
+                timeLabel.text = sortedCigarArr[indexPath.row].time
+                numberLabel.text = "\(sortedCigarArr[indexPath.row].number) Cigarette"
+                reasonLabel.text = sortedCigarArr[indexPath.row].reason
             } else {
-                timeLabel.text = alcoArr[indexPath.row].time
-                numberLabel.text = "\(alcoArr[indexPath.row].number) Glass"
-                reasonLabel.text = alcoArr[indexPath.row].reason
+                timeLabel.text = sortedAlcoArr[indexPath.row].time
+                numberLabel.text = "\(sortedAlcoArr[indexPath.row].number) Glass"
+                reasonLabel.text = sortedAlcoArr[indexPath.row].reason
             }
             
             let dopsButton = UIButton()

@@ -21,3 +21,16 @@ struct AlcoSigar: Codable {
         self.day = day
     }
 }
+
+
+struct User: Codable {
+    var name: String
+    var exp: String
+    var image: Data
+    
+    init(name: String, exp: String, image: Data) {
+        self.name = name
+        self.exp = exp
+        self.image = image
+    }
+}

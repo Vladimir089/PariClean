@@ -103,7 +103,7 @@ class HomeViewController: UIViewController {
         
         let midView = UIView()
         midView.backgroundColor = .white.withAlphaComponent(0.08)
-        midView.layer.cornerRadius = 16
+        midView.layer.cornerRadius = 28
         view.addSubview(midView)
         midView.snp.makeConstraints { make in
             make.left.right.equalToSuperview().inset(15)

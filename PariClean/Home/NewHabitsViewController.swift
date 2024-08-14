@@ -160,6 +160,7 @@ class NewHabitsViewController: UIViewController {
         
         
         let all = AlcoSigar(number: number, reason: reason, time: time, day: day)
+        print(all)
         
         if isEdit == false {
             if habits == "Cigarette" {
