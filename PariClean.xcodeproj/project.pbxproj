@@ -26,6 +26,7 @@
 		156862002C6CCD6800328FC5 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156861FF2C6CCD6800328FC5 /* AccountViewController.swift */; };
 		156862022C6CE6B200328FC5 /* EditAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156862012C6CE6B200328FC5 /* EditAccountViewController.swift */; };
 		156862042C6CFF5E00328FC5 /* AchivementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156862032C6CFF5E00328FC5 /* AchivementViewController.swift */; };
+		1568620E2C6E244C00328FC5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1568620D2C6E244C00328FC5 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		156861FF2C6CCD6800328FC5 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		156862012C6CE6B200328FC5 /* EditAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountViewController.swift; sourceTree = "<group>"; };
 		156862032C6CFF5E00328FC5 /* AchivementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchivementViewController.swift; sourceTree = "<group>"; };
+		1568620D2C6E244C00328FC5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		156861C92C6A1B0100328FC5 /* PariClean */ = {
 			isa = PBXGroup;
 			children = (
+				1568620C2C6E243C00328FC5 /* Settings */,
 				156861FE2C6CCD4E00328FC5 /* Account */,
 				156861EB2C6A486F00328FC5 /* Home */,
 				156861E82C6A482C00328FC5 /* Tabbar */,
@@ -151,6 +154,14 @@
 				156862032C6CFF5E00328FC5 /* AchivementViewController.swift */,
 			);
 			path = Account;
+			sourceTree = "<group>";
+		};
+		1568620C2C6E243C00328FC5 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				1568620D2C6E244C00328FC5 /* SettingsViewController.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +248,7 @@
 				156861CD2C6A1B0100328FC5 /* SceneDelegate.swift in Sources */,
 				156861FD2C6B961200328FC5 /* NewHabitsViewController.swift in Sources */,
 				156861F72C6B7A6400328FC5 /* DetailAddViewController.swift in Sources */,
+				1568620E2C6E244C00328FC5 /* SettingsViewController.swift in Sources */,
 				156862042C6CFF5E00328FC5 /* AchivementViewController.swift in Sources */,
 				156861EA2C6A484200328FC5 /* TabBarViewController.swift in Sources */,
 				156861F12C6A91AC00328FC5 /* EditDiagramViewController.swift in Sources */,

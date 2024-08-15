@@ -11,6 +11,7 @@ class TabBarViewController: UITabBarController {
     
     let homeVC = HomeViewController()
     let accVC = AccountViewController()
+    let settingsVC = SettingsViewController()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,14 +35,17 @@ class TabBarViewController: UITabBarController {
         
         
         
-        let homeItem = UITabBarItem(title: "Home", image: .home.resize(targetSize: CGSize(width: 22, height: 22)), tag: 0)
+        let homeItem = UITabBarItem(title: "Home", image: .home.resize(targetSize: CGSize(width: 28, height: 28)), tag: 0)
         homeVC.tabBarItem = homeItem
         
         
-        let accItem = UITabBarItem(title: "Account", image: .acc.resize(targetSize: CGSize(width: 24, height: 24)), tag: 1)
+        let accItem = UITabBarItem(title: "Account", image: .acc.resize(targetSize: CGSize(width: 28, height: 28)), tag: 1)
         accVC.tabBarItem = accItem
         
-        viewControllers = [homeVC, accVC]
+        let setItem = UITabBarItem(title: "Settings", image: .set.resize(targetSize: CGSize(width: 28, height: 28)), tag: 2)
+        settingsVC.tabBarItem = setItem
+        
+        viewControllers = [homeVC, accVC, settingsVC]
     }
 
 }
